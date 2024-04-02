@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> -Harry Potter - A saga- </title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(./fundo.principal.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+                   
+        }
+
+        .container {
+            display:grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+    
+            
+        }
+            
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+           
+        }
+        .imagem_harry {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .infos {
+            color: white;
+        }
+
+        .principal {
+            grid-column-start: 3;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 9;
+            color:white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color:white;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid white 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506e6a;
+            color: white;
+        }
+
+        @media only screen and (max-width: 767px){
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .imagem_harry {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;"> Harry Potter - História</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="livros.html">Livros</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="jkr.html">J.K. Rowling</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_harry">
+            <img src="harry.potter.foto.jpg">
+            <div class="infos">
+                <p><strong>Escrito Por:</strong> J.K. Rowling</p>
+                <p><strong>Gênero:</strong> Aventura/Fantasia</p>
+                <p>
+                    <strong>data de lançamento: </strong>
+                    1998-2007, 26 de junho de 1997 – 21 de julho de 2007
+                </p>
+                
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>
+                O menino que Sobreviveu!
+            </h1>
+            <p>Harry James Potter nasceu em Godric’s Hollow em 31 de julho de 1980, mais conhecido como Harry Potter. Ele é um bruxo, filho único de Tiago Potter e Lílian Evans Potter, considerado um dos mais famosos bruxos dos tempos modernos e o aluno mais famoso da Escola de Magia e Bruxaria de Hogwarts. Ficou famoso por ter sido o único sobrevivente da Maldição da Morte, quando Lord Voldemort tentou assassiná-lo ainda bebê. Sua lembrança deste dia é uma cicatriz que ficou em sua testa, em formato de raio.</p>
+            <p>Harry teve uma infância difícil, pois perdeu os pais ainda bebê, assassinados por Lord Voldemort. Ao fim da Primeira Guerra Bruxa, Harry foi morar com seus parentes trouxas, os Dursley, sem qualquer tipo de contato com o mundo bruxo até seus 11 anos, quando passou a receber cartas da Escola de Magia e Bruxaria de Hogwarts e Rúbeo Hagrid lhe contou que seus pais eram bruxos. A partir de então, Harry passou a aprender sobre sua história e o mundo bruxo. Ingressou em Hogwarts e logo foi selecionado para fazer parte da Grifinória, juntamente com Rony Weasley e Hermione Granger, que mais tarde tornariam-se seus melhores amigos.</p>
+            <p>Na escola, tornou-se apanhador na equipe de Quadribol, sendo o mais jovem a ocupar a posição em mais de 100 anos de história. Com a ajuda de seus amigos, enfrentou diversos desafios durante a adolescência, vários deles contra Lord Voldemort, como por exemplo impedindo o vilão de possuir a Pedra Filosofal, logo no primeiro ano.</p>
+            <p>A história de Harry Potter foi escrita pela autora inglesa J. K. Rowling e derivou sete livros e oito filmes que foram adaptados para o cinema, criando uma das maiores legiões de fãs do século XXI.</p>
+            <p>Com o fim da saga, novos filmes foram produzidos. Um deles é "Animais Fantásticos e Onde Habitam", baseado em livro publicado por J.K Rowling em 2001, que seria um dos materiais didáticos de Hogwarts. A obra originou três filmes: "Animais Fantásticos e Onde Habitam" (2016), "Animais Fantásticos e os Crimes de Grindelwald" (2018) e "Animais Fantásticos e os Segredos de Dumbledore" (2022). Além disso, um roteiro de peça escrito por J. K. Rowling, Jack Thorne e John Tiffany foi publicado em 2016, sob o título "Harry Potter e a Criança Amaldiçoada".</p>
+            <p>Em 1º de janeiro de 2022, a HBO Max lançou o especial "Harry Potter: 20 Anos de Magia - De Volta A Hogwarts" em homenagem a 20 anos do lançamento de "Harry Potter e a Pedra Filosofal". No longa documentário, grande parte do elenco original se reuniu para debater sobre suas experiências ao longo dos anos.</p>
+            
+        </section>
+    </div>    
+    <footer class="container">
+        <h4>desenvolvido por: Lucas S. Lira</h4>
+    </footer>      
+    </div>
+
+</body>
+</html>
